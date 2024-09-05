@@ -65,6 +65,7 @@ set(INCLUDES
   include/dto.h
   include/data_ref_access.h
   include/frame_rate_monitor.h
+  include/interplugin_messaging.h
   include/nearby_atc_window.h
   include/network_aircraft.h
   include/notification_panel.h
@@ -87,6 +88,7 @@ set(SRC
   src/config.cpp
   src/data_ref_access.cpp
   src/frame_rate_monitor.cpp
+  src/interplugin_messaging.cpp
   src/nearby_atc_window.cpp
   src/network_aircraft.cpp
   src/notification_panel.cpp

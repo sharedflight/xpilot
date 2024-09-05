@@ -22,6 +22,7 @@
 #include "dto.h"
 #include "owned_data_ref.h"
 #include "text_message_console.h"
+#include "interplugin_messaging.h"
 #include "utilities.h"
 
 namespace xpilot
@@ -37,6 +38,7 @@ namespace xpilot
 	class AircraftManager;
 	class NotificationPanel;
 	class TextMessageConsole;
+	class InterpluginMessaging;
 	class NearbyAtcWindow;
 	class SettingsWindow;
 
@@ -141,6 +143,7 @@ namespace xpilot
 		std::unique_ptr<AircraftManager> m_aircraftManager;
 		std::unique_ptr<NotificationPanel> m_notificationPanel;
 		std::unique_ptr<TextMessageConsole> m_textMessageConsole;
+		std::unique_ptr<InterpluginMessaging> m_interpluginMessaging;
 		std::unique_ptr<NearbyAtcWindow> m_nearbyAtcWindow;
 		std::unique_ptr<SettingsWindow> m_settingsWindow;
 

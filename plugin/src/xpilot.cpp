@@ -643,6 +643,7 @@ namespace xpilot
 			{
 				m_textMessageConsole->AddMessage(message, color);
 			}
+			m_interpluginMessaging->AddMessage(message);
 		});
 	}
 
@@ -658,6 +659,7 @@ namespace xpilot
 			{
 				m_textMessageConsole->AddMessage(message, color);
 			}
+			m_interpluginMessaging->AddMessage(message);
 		});
 	}
 
